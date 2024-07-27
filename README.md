@@ -17,7 +17,6 @@ The Stock-Forecasting-Tool is a comprehensive application designed to aid users 
 
 - **Prediction Models**: Integrate Prophet, ARIMA, and XGBoost models to analyze financial news and predict stock price movements.
 - **Real-Time Insights**: Use a dashboard to provide real-time insights, helping users make informed investment decisions based on the latest news and trends.
-- **Sentiment Analysis**: Employ sentiment analysis to evaluate the impact of news articles on stock prices, achieving an 80% accuracy in sentiment prediction.
 
 ## Getting Started
 
