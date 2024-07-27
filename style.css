@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffff0; /* ivory */
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3efe2; /* silver */
+    border: 1px solid #313232; /* jet */
+}
+
+/* Header Styles */
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+.title {
+    grid-column: 2;
+    justify-self: center;
+    font-family: 'Lucida Handwriting', 'Comic Sans MS', 'Cursive', 'Georgia', 'Times New Roman', serif; /* Slightly cursive font */
+    color: #313232; /* Text color */
+}
+
+
+/* Control Styles */
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.ms-auto {
+    background-color: #bba45e;  /* ecru */
+    color: #313232;  /* jet */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+.buttons { 
+    display: flex;
+    gap: 10px; 
+    
+}
+
+.button-filters {
+    background-color: #bba45e;  /* ecru */
+    color: #313232;  /* jet */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+.button-indicators {
+    background-color: #bba45e;  /* ecru */
+    color: #313232;  /* jet */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+} 
+
+.button-graphs {
+    background-color: #bba45e;  /* ecru */
+    color: #313232;  /* jet */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+} 
+
+.button-models {
+    background-color: #bba45e;  /* ecru */
+    color: #313232;  /* jet */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+} 
+
+.search-bar {
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #313232;  /* jet */
+}
+
+.search-button {
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #cfbb85; /* dark goldenrod */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#stock-dropdown {
+    width: 200px;
+    border: 1px solid #313232;  /* jet */
+}
+
+
+/* Graph Container Styles */
+#graph-container {
+    height: 400px;
+    width: 100%; 
+    margin-bottom: 20px;
+    background-color: transparent; /* Allow plot background to show through */
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: #a58b45; /* dark goldenrod */
+    color: #fffff0; /* ivory */ 
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.about-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    width: 100%;
+    height: 100%;
+    resize: none; 
+}
+
+/* Tabs Container and Tab Styles */
+.tabs-container {
+    display: flex; /* Arrange labels horizontally */
+    margin-bottom: 10px;
+}
+
+
+.tab {
+    padding: 10px 15px;
+    background-color: #ebd795; /* Light Gold - Adjust to your desired shade */
+    color: #313232;  /* jet */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px; 
+}
